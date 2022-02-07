@@ -1,0 +1,10 @@
+{
+    "aps": {
+        "alert": {
+            "body": "This a demo app for Apple watch",
+            "title": "Baad May--POC",
+        },
+        "category": "watchPoc"
+    },
+}
+

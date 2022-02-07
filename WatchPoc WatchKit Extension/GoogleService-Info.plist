@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>194476164327-rtp8cupsjcekm7qlhuco16rp46egi3us.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.194476164327-rtp8cupsjcekm7qlhuco16rp46egi3us</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBRiB0K6Le3tBDVR6XvwU5Q4dwaQ8wz5RI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>194476164327</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.baadMe.WatchPoc.watchkitapp.watchkitextension</string>
+	<key>PROJECT_ID</key>
+	<string>baadme-c9513</string>
+	<key>STORAGE_BUCKET</key>
+	<string>baadme-c9513.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:194476164327:ios:08e83966dcd3f6d208ce42</string>
+</dict>
+</plist>
