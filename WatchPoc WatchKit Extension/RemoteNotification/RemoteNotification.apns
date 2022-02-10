@@ -1,10 +1,10 @@
 {
     "aps": {
         "alert": {
-            "body": "This a demo app for Apple watch",
-            "title": "Baad May--POC",
+            "body": "You are purchasing PKR 5000 t-shirt from Outfitters",
+            "title": "Baadmay",
         },
-        "category": "watchPoc"
+        "category": "watchPoc",
     },
 }
 

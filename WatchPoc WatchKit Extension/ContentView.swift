@@ -9,29 +9,55 @@ import SwiftUI
 import UserNotifications
 
 struct ContentView: View {
-    @State var notification = NotificationManager()
+    @ObservedObject var notification = NotificationManager()
     
     var body: some View {
-        Text(notification.displayMessage)
-            .padding()
+        if notification.displayMessage == "agree" {
+           return AnyView(SuccessView())
+        } else if notification.displayMessage == "disagree" {
+           return AnyView(FailureView())
+        } else {
+            return AnyView(Text("Hello world!"))
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SuccessView()
+        FailureView()
     }
 }
 
 struct SuccessView: View {
     var body: some View {
-        Text("Success screen")
+        VStack {
+            Text("Baadmay")
+                .font(.title)
+            Image(systemName: "checkmark.circle")
+                .foregroundColor(Color.green)
+                .font(.system(size: 60))
+            Text("Payment successfull")
+        }
     }
 }
 
-final class NotificationManager: NSObject {
+struct FailureView: View {
+    var body: some View {
+        VStack {
+            Text("Baadmay")
+                .font(.title)
+            Image(systemName: "exclamationmark.circle.fill")
+                .foregroundColor(Color.red)
+                .font(.system(size: 60))
+            Text("Payment failed")
+        }
+    }
+}
+
+final class NotificationManager: NSObject, ObservableObject {
     
-    public var displayMessage: String = "Hello World!"
+    @Published var displayMessage: String = "Hello World!"
     
     override init() {
         super.init()
@@ -47,10 +73,7 @@ final class NotificationManager: NSObject {
 
 extension NotificationManager: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse) async {
-        if response.actionIdentifier == "agree" {
-            displayMessage = "Successfully agreed, Congratulations!"
-        } else {
-            displayMessage = "We hope to see you soon :)"
-        }
+        print("action: \(response.actionIdentifier)")
+        displayMessage = response.actionIdentifier
     }
 }

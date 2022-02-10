@@ -23,7 +23,7 @@
 		690DD2B427AD3A1C0056D8EF /* RemoteNotification.apns in Resources */ = {isa = PBXBuildFile; fileRef = 690DD2B327AD3A1C0056D8EF /* RemoteNotification.apns */; };
 		690DD2B627AD3A360056D8EF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DD2B527AD3A360056D8EF /* ExtensionDelegate.swift */; };
 		695C2B0527AD5B4A00C38C5F /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 695C2B0427AD5B4A00C38C5F /* FirebaseMessaging */; };
-		695C2B0927AD62F500C38C5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 695C2B0827AD62F500C38C5F /* GoogleService-Info.plist */; };
+		69C0A99B27B4F5C60096958E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69C0A99A27B4F5C60096958E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +88,8 @@
 		690DD2B327AD3A1C0056D8EF /* RemoteNotification.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = RemoteNotification.apns; sourceTree = "<group>"; };
 		690DD2B527AD3A360056D8EF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		690DD2B727AD3ADA0056D8EF /* WatchPoc WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchPoc WatchKit Extension.entitlements"; sourceTree = "<group>"; };
-		695C2B0827AD62F500C38C5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		69C0A99A27B4F5C60096958E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		69C0A99C27B4F7D10096958E /* WatchPoc WatchKit AppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchPoc WatchKit AppRelease.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +126,7 @@
 		690DD28227AD38F10056D8EF /* WatchPoc WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				69C0A99C27B4F7D10096958E /* WatchPoc WatchKit AppRelease.entitlements */,
 				690DD28327AD38F30056D8EF /* Assets.xcassets */,
 			);
 			path = "WatchPoc WatchKit App";
@@ -133,7 +135,7 @@
 		690DD28D27AD38F30056D8EF /* WatchPoc WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				695C2B0827AD62F500C38C5F /* GoogleService-Info.plist */,
+				69C0A99A27B4F5C60096958E /* GoogleService-Info.plist */,
 				690DD2B727AD3ADA0056D8EF /* WatchPoc WatchKit Extension.entitlements */,
 				690DD2AC27AD396C0056D8EF /* RemoteNotification */,
 				690DD28E27AD38F30056D8EF /* WatchPocApp.swift */,
@@ -291,7 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				690DD29C27AD38F40056D8EF /* Preview Assets.xcassets in Resources */,
-				695C2B0927AD62F500C38C5F /* GoogleService-Info.plist in Resources */,
+				69C0A99B27B4F5C60096958E /* GoogleService-Info.plist in Resources */,
 				690DD29927AD38F40056D8EF /* Assets.xcassets in Resources */,
 				690DD2B427AD3A1C0056D8EF /* RemoteNotification.apns in Resources */,
 			);
@@ -543,9 +545,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "WatchPoc WatchKit App/WatchPoc WatchKit AppRelease.entitlements";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G6X2L34C33;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = WatchPoc_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "WatchPoc WatchKit App";
@@ -553,6 +556,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.baadMe.WatchPoc.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -578,12 +582,14 @@
 		690DD2AB27AD38F40056D8EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G6X2L34C33;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.baadMe.WatchPoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WatchPoc;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

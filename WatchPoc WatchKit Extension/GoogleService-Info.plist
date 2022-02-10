@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>194476164327-rtp8cupsjcekm7qlhuco16rp46egi3us.apps.googleusercontent.com</string>
+	<string>194476164327-6ecfjemct226pmcobiq6q4gite5aiiah.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.194476164327-rtp8cupsjcekm7qlhuco16rp46egi3us</string>
+	<string>com.googleusercontent.apps.194476164327-6ecfjemct226pmcobiq6q4gite5aiiah</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBRiB0K6Le3tBDVR6XvwU5Q4dwaQ8wz5RI</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.baadMe.WatchPoc.watchkitapp.watchkitextension</string>
+	<string>com.baadMe.WatchPoc.watchkitapp</string>
 	<key>PROJECT_ID</key>
 	<string>baadme-c9513</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:194476164327:ios:08e83966dcd3f6d208ce42</string>
+	<string>1:194476164327:ios:e405794df0da374208ce42</string>
 </dict>
 </plist>
