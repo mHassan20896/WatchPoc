@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "690DD27D27AD38F10056D8EF"
-               BuildableName = "WatchPoc WatchKit App.app"
+               BuildableName = "BaadMay.app"
                BlueprintName = "WatchPoc WatchKit App"
                ReferencedContainer = "container:WatchPoc.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "690DD27927AD38F10056D8EF"
-               BuildableName = "WatchPoc.app"
+               BuildableName = "BaadMay.app"
                BlueprintName = "WatchPoc"
                ReferencedContainer = "container:WatchPoc.xcodeproj">
             </BuildableReference>
@@ -56,16 +56,18 @@
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "8"
       notificationPayloadFile = "WatchPoc WatchKit Extension/PushNotificationPayload.apns">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/(null)">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "690DD27D27AD38F10056D8EF"
-            BuildableName = "WatchPoc WatchKit App.app"
+            BuildableName = "BaadMay.app"
             BlueprintName = "WatchPoc WatchKit App"
             ReferencedContainer = "container:WatchPoc.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -75,16 +77,27 @@
       debugDocumentVersioning = "YES"
       launchAutomaticallySubstyle = "8"
       notificationPayloadFile = "WatchPoc WatchKit Extension/PushNotificationPayload.apns">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/(null)">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "690DD27D27AD38F10056D8EF"
-            BuildableName = "WatchPoc WatchKit App.app"
+            BuildableName = "BaadMay.app"
             BlueprintName = "WatchPoc WatchKit App"
             ReferencedContainer = "container:WatchPoc.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "690DD27D27AD38F10056D8EF"
+            BuildableName = "BaadMay.app"
+            BlueprintName = "WatchPoc WatchKit App"
+            ReferencedContainer = "container:WatchPoc.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

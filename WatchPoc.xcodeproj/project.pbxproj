@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		690DD27F27AD38F10056D8EF /* WatchPoc WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 690DD27E27AD38F10056D8EF /* WatchPoc WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		690DD27F27AD38F10056D8EF /* BaadMay.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 690DD27E27AD38F10056D8EF /* BaadMay.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		690DD28427AD38F30056D8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690DD28327AD38F30056D8EF /* Assets.xcassets */; };
 		690DD28A27AD38F30056D8EF /* WatchPoc WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 690DD28927AD38F30056D8EF /* WatchPoc WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		690DD28F27AD38F30056D8EF /* WatchPocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DD28E27AD38F30056D8EF /* WatchPocApp.swift */; };
@@ -61,7 +61,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				690DD27F27AD38F10056D8EF /* WatchPoc WatchKit App.app in Embed Watch Content */,
+				690DD27F27AD38F10056D8EF /* BaadMay.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,8 +69,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		690DD27A27AD38F10056D8EF /* WatchPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		690DD27E27AD38F10056D8EF /* WatchPoc WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchPoc WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		690DD27A27AD38F10056D8EF /* BaadMay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaadMay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		690DD27E27AD38F10056D8EF /* BaadMay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaadMay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		690DD28327AD38F30056D8EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		690DD28927AD38F30056D8EF /* WatchPoc WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchPoc WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		690DD28E27AD38F30056D8EF /* WatchPocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPocApp.swift; sourceTree = "<group>"; };
@@ -88,8 +88,10 @@
 		690DD2B327AD3A1C0056D8EF /* RemoteNotification.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = RemoteNotification.apns; sourceTree = "<group>"; };
 		690DD2B527AD3A360056D8EF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		690DD2B727AD3ADA0056D8EF /* WatchPoc WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchPoc WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		6950158327B57B5C00BB7231 /* WatchPoc WatchKit ExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchPoc WatchKit ExtensionRelease.entitlements"; sourceTree = "<group>"; };
 		69C0A99A27B4F5C60096958E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		69C0A99C27B4F7D10096958E /* WatchPoc WatchKit AppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchPoc WatchKit AppRelease.entitlements"; sourceTree = "<group>"; };
+		69D9473E27B9861B002C462E /* WatchPoc WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchPoc WatchKit App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +118,8 @@
 		690DD27B27AD38F10056D8EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				690DD27A27AD38F10056D8EF /* WatchPoc.app */,
-				690DD27E27AD38F10056D8EF /* WatchPoc WatchKit App.app */,
+				690DD27A27AD38F10056D8EF /* BaadMay.app */,
+				690DD27E27AD38F10056D8EF /* BaadMay.app */,
 				690DD28927AD38F30056D8EF /* WatchPoc WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -126,6 +128,7 @@
 		690DD28227AD38F10056D8EF /* WatchPoc WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				69D9473E27B9861B002C462E /* WatchPoc WatchKit App.entitlements */,
 				69C0A99C27B4F7D10096958E /* WatchPoc WatchKit AppRelease.entitlements */,
 				690DD28327AD38F30056D8EF /* Assets.xcassets */,
 			);
@@ -135,6 +138,7 @@
 		690DD28D27AD38F30056D8EF /* WatchPoc WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				6950158327B57B5C00BB7231 /* WatchPoc WatchKit ExtensionRelease.entitlements */,
 				69C0A99A27B4F5C60096958E /* GoogleService-Info.plist */,
 				690DD2B727AD3ADA0056D8EF /* WatchPoc WatchKit Extension.entitlements */,
 				690DD2AC27AD396C0056D8EF /* RemoteNotification */,
@@ -188,7 +192,7 @@
 			);
 			name = WatchPoc;
 			productName = WatchPoc;
-			productReference = 690DD27A27AD38F10056D8EF /* WatchPoc.app */;
+			productReference = 690DD27A27AD38F10056D8EF /* BaadMay.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		690DD27D27AD38F10056D8EF /* WatchPoc WatchKit App */ = {
@@ -205,7 +209,7 @@
 			);
 			name = "WatchPoc WatchKit App";
 			productName = "WatchPoc WatchKit App";
-			productReference = 690DD27E27AD38F10056D8EF /* WatchPoc WatchKit App.app */;
+			productReference = 690DD27E27AD38F10056D8EF /* BaadMay.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		690DD28827AD38F30056D8EF /* WatchPoc WatchKit Extension */ = {
@@ -454,14 +458,14 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "WatchPoc WatchKit Extension/WatchPoc WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchPoc WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = G6X2L34C33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WatchPoc WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "WatchPoc WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "BaadMay Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchPoc_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -485,16 +489,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "WatchPoc WatchKit Extension/WatchPoc WatchKit Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "WatchPoc WatchKit Extension/WatchPoc WatchKit ExtensionRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchPoc WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = G6X2L34C33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WatchPoc WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "WatchPoc WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "BaadMay Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchPoc_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -520,16 +524,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WatchPoc WatchKit App/WatchPoc WatchKit App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = G6X2L34C33;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = WatchPoc_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "WatchPoc WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.baadMe.WatchPoc.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BaadMay;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -546,16 +550,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "WatchPoc WatchKit App/WatchPoc WatchKit AppRelease.entitlements";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = G6X2L34C33;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = WatchPoc_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "WatchPoc WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.baadMe.WatchPoc.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BaadMay;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -569,12 +573,13 @@
 		690DD2AA27AD38F40056D8EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = G6X2L34C33;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.baadMe.WatchPoc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BaadMay;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -582,14 +587,14 @@
 		690DD2AB27AD38F40056D8EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = G6X2L34C33;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.baadMe.WatchPoc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = WatchPoc;
+				PRODUCT_NAME = BaadMay;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

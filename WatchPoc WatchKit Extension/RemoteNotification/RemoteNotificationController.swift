@@ -13,6 +13,14 @@ import Firebase
 final class RemoteNotificationController: WKUserNotificationHostingController<RemoteNotificationView>{
     static let categoryIdentifier = "watchPoc"
     
+    override class var sashColor: Color? {
+//        xx138,43,226
+      Color(red: 138/255, green: 43/255, blue: 226/255)
+    }
+    
+    override class var isInteractive: Bool { true }
+    
+    
     private var model: RemoteNotificationModel!
 //    private var notification = NotificationService()
     
@@ -28,8 +36,8 @@ final class RemoteNotificationController: WKUserNotificationHostingController<Re
         let title = content.title
         let body = content.body
         
-        let doneAction = UNNotificationAction(identifier: "agree", title: "Agree", options: .foreground)
-        let laterAction = UNNotificationAction(identifier: "disagree", title: "Disgree", options: .foreground)
+        let doneAction = UNNotificationAction(identifier: "agree", title: "Confirm", options: .foreground)
+        let laterAction = UNNotificationAction(identifier: "disagree", title: "Decline", options: .foreground)
         
         let current = UNUserNotificationCenter.current()
         let category = UNNotificationCategory(

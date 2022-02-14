@@ -13,6 +13,9 @@ struct WatchPocApp: App {
     
     init() {
         FirebaseApp.configure()
+        Messaging.messaging().subscribe(toTopic: "testing") { error in
+          print("Subscribed to weather topic")
+        }
     }
     
     @WKExtensionDelegateAdaptor(ExtensionDelegate.self)

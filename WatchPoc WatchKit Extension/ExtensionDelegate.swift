@@ -14,6 +14,9 @@ final class ExtensionDelegate: NSObject, WKExtensionDelegate, MessagingDelegate 
     /// MessagingDelegate
     func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
         print("token:\n" + fcmToken!)
+        Messaging.messaging().subscribe(toTopic: "testing") { error in
+          print("Subscribed to weather topic")
+        }
         //      Messaging.messaging().subscribe(toTopic: "watch") { error in
         //        if error != nil {
         //          print("error:" + error.debugDescription)
